@@ -5,7 +5,7 @@ class AppConstants {
   static const String appName = 'فوراً (توصيل)';
   static const double appVersion = 2.1;
 
-  static const String baseUrl = 'https://admin.watanmeet.online';
+  static const String baseUrl = 'https://admin.fauoran.com';
   static const String configUri = '/api/v1/config';
   static const String forgetPasswordUri =
       '/api/v1/auth/delivery-man/forgot-password';
@@ -88,15 +88,16 @@ class AppConstants {
 
   static List<LanguageModel> languages = [
     LanguageModel(
-        imageUrl: Images.english,
-        languageName: 'English',
-        countryCode: 'US',
-        languageCode: 'en'),
-    LanguageModel(
         imageUrl: Images.arabic,
         languageName: 'Arabic',
         countryCode: 'SA',
         languageCode: 'ar'),
+    LanguageModel(
+        imageUrl: Images.english,
+        languageName: 'English',
+        countryCode: 'US',
+        languageCode: 'en'),
+
     LanguageModel(
         imageUrl: Images.arabic,
         languageName: 'Spanish',
